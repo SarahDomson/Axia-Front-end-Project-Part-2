@@ -372,7 +372,7 @@ h5 {
 
 .container3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
   padding-left: 144px;
@@ -404,13 +404,12 @@ h5 {
 .sub-details {
   position: absolute;
   right: 80px;
-  left: 70px;
+  left: 50px;
   bottom: -30px;
-  border-radius: 5px;
   background-color: rgba(245, 247, 250, 1);
   width: 240px;
-  height: 76px;
-  padding: 16px 0px 16px 0px;
+  height: 100px;
+  padding: 16px;
   border-radius: 8px;
   box-shadow: 16px 8px 16px 8px rgba(171, 190, 209, 0.4);
 }
@@ -452,18 +451,87 @@ h5 {
 
 footer {
   background: #263238; 
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
-  gap: 150px;
+  gap: 80px;
+}
+
+.copyright {
+  p {
+    font-size: 14px;
+    color: #fff;
+  }
 }
 
 .footer-links {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  gap: 200px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socials i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: white;
+}
+
+.footer-links-row {
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+  }
+}
+
+strong {
+  font-size: 20px;
+  color: #fff;
+}
+
+.fa-instagram, .fa-basketball, .fa-twitter, .fa-youtube {
+  background-color: #707070;
+  color: #fff;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  background-color: #465055;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 320px;
+}
+
+.email-container input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  color: #c1c1c1;
+  font-size: 16px;
+  outline: none;
+}
+
+.email-container i {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 
