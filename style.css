@@ -448,8 +448,23 @@ h5 {
   .btn {
     margin-bottom: 40px;
 }
+}
 
+footer {
+  background: #263238; 
+}
 
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
 
 
   /* media query */
