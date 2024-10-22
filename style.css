@@ -86,46 +86,6 @@ body {
   background-color: #218838;
 }
 
-/* Hamburger menu (visible on small screens) */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 5px 0;
-  transition: 0.4s;
-}
-
-/* Dropdown menu (hidden by default) */
-.dropdown-menu {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  padding: 20px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
-
-.dropdown-menu a {
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
-  color: #333;
-}
-
-.dropdown-menu a:hover {
-  background-color: #f0f0f0;
-}
-
 .hero-main {
     display: flex;
     justify-content: space-around;
@@ -283,7 +243,7 @@ h5 {
     gap: 20px;
  }
 
- strong {
+ .num {
   font-size: 28px;
   font-weight: 600;
   color: rgba(77, 77, 77, 1);
@@ -292,7 +252,7 @@ h5 {
  .group {
   font-size: 14px;
   font-weight: 400;
-  color: rgba(113, 113, 113, 1);
+  color: black;;
  }
 
  .testimonial-section {
@@ -534,24 +494,5 @@ strong {
   cursor: pointer;
 }
 
-
-  /* media query */
   
-/* Media Queries for Small Screens */
-/* @media (max-width: 768px) {
-  .navbar ul {
-      display: none;
-  }
 
-  .hamburger {
-      display: flex;
-  }
-
-  .navbar .auth {
-      display: none;
-  }
-
-  #menu-toggle:checked + .hamburger + .dropdown-menu {
-      display: flex;
-  }
-} */
