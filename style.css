@@ -5,10 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: rgba(245, 247, 250, 1);
+    min-height: 100%;
+}
+
+.nav-container {
+  height: 70%;
+  background: rgba(245, 247, 250, 1);
 }
 
 .navbar {
@@ -232,11 +242,14 @@ h5 {
 
 
 .section2 {
+    background: rgba(245, 247, 250, 1);
+    height: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 200px;
-    margin-top: 50px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   #content-main {
@@ -283,15 +296,17 @@ h5 {
  }
 
  .testimonial-section {
+  background: rgba(245, 247, 250, 1);
+  height: 70%;
   padding-top: 40px;
-  padding-left: 160px;
+  padding-left: 60px;
 }
 
 .testimonial-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   padding-left: 40px;
   border-radius: 8px;
 }
@@ -355,16 +370,32 @@ h5 {
 }
 
 
-.meet-customers-section {
+.container3 {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 32px;
   background-color: white;
-  padding-left: 205px;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+#blog-header {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(77, 77, 77, 1);
+  text-align: center;
+}
+
+#blog-para {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(113, 113, 113, 1);
+  text-align: center;
 }
 
 .person-container {
   position: relative;
+  display: flex;
   width: 368px;
   height: 286px;
   padding-top: 30px;
@@ -373,23 +404,53 @@ h5 {
 .sub-details {
   position: absolute;
   right: 80px;
+  left: 70px;
   bottom: -30px;
-  width: 200px;
-  height: 100px;
   border-radius: 5px;
   background-color: rgba(245, 247, 250, 1);
-  width: 250px;
+  width: 240px;
   height: 76px;
   padding: 16px 0px 16px 0px;
   border-radius: 8px;
+  box-shadow: 16px 8px 16px 8px rgba(171, 190, 209, 0.4);
+}
+
+.details {
+  background: rgba(245, 247, 250, 1);
+  text-align: center;
+}
+
+.details-para {
+  font-size: 16px;
+  color: rgba(77, 77, 77, 1);
+}
+
+.details-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4CAF4F;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container4 {
+  text-align: center;
+  background: rgba(245, 247, 250, 1);
+  margin-top: 80px;
+  padding-top: 40px;
+
+  p{
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(38, 50, 56, 1);
+  }
+
+  .btn {
+    margin-bottom: 40px;
 }
 
 
 
-
-.hero-sec {
-    background-color: white;
-  }
 
   /* media query */
   
