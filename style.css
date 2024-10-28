@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0;
@@ -42,7 +43,6 @@ body {
   vertical-align: middle;
 }
 
-/* Menu links (visible on large screens) */
 .navbar ul {
   display: flex;
   list-style: none;
@@ -60,6 +60,16 @@ body {
 
 .navbar ul li a:hover {
   color: #008000;
+}
+
+#home {
+  color: #18191F;
+  font-weight: bold;
+}
+
+.menu {
+  display: none;
+
 }
 
 /* Login and Signup buttons */
@@ -84,6 +94,10 @@ body {
 
 .navbar .auth .signup:hover {
   background-color: #218838;
+}
+
+.menu {
+  display: none;
 }
 
 .hero-main {
@@ -494,5 +508,6 @@ strong {
   cursor: pointer;
 }
 
-  
+
+
 
